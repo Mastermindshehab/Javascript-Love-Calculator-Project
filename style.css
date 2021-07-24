@@ -1,0 +1,8 @@
+body{margin:0;padding:0;}
+.container{width: 1170px;margin:auto;}
+.header{text-align:center;background:red; widht:500px;padding:10px;font-size:50px;color:white ;}
+
+#fname{width:540px;color:red;float: left;/* margin-left: 187px; */text-align: center;padding: 10px;font-size: 30px;}
+#Lname{width:540px;color:red;float: right;margin-right: -5px;padding: 10px;font-size: 27px;}
+
+.loveCal{margin:auto;}
