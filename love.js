@@ -1,10 +1,27 @@
-//const firstname=document.querySelector("#fname");
-//const Lastname=document.querySelector("#Lname");
+function LoveCal() {
 
-const firstinput=prompt("typer your name");
-const partnername=prompt("typer partner name");
-let number= Math.random()*100;
+ const firstINput=document.getElementById("yourName");
+ const yourname=firstINput.value;
 
-number=Math.floor(number)+1;
+document.getElementById("person1").innerHTML=yourname;
+document.getElementById("yourName").value="";
 
-document.getElementById("#result").innerHTML=number;
+
+const partnerINput=document.getElementById("PartnerName");
+const partName=partnerINput.value;
+
+document.getElementById("person2").innerHTML=partName;
+document.getElementById("PartnerName").value="";
+
+
+// show love %
+
+let lovepars=Math.random() *100;
+lovepars=Math.floor(lovepars) +1 ;
+
+document.getElementById("lovePars").innerHTML=lovepars +"%";
+
+
+
+
+}

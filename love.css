@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+h1 {
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.3);
+    font-family: cursive;
+    padding: 10px;
+    width: 842px;
+    margin: auto;
+    margin-top: 17px;
+  }
+body {
+  background-color: #13213c;
+}
+.heart {
+  top: 40px;
+  position: relative;
+  background-color: red;
+  height: 60px;
+  transform: rotate(-45deg);
+  width: 60px;
+}
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 60px;
+  position: absolute;
+  width: 60px;
+}
+.heart:after {
+  left: 30px;
+  top: 0;
+}
+.heart:before {
+  top: -30px;
+  left: 0;
+}
+.center{
+  margin:auto;
+}
+
+div.person{
+  background-color: #0b0429;
+  height: 154px;
+  width: 261px;
+  box-shadow: 2px 1px 15px #7968ff;
+  margin-top: 35px;
+}
+#card1{
+  position: absolute;
+  left: 0px;
+}
+#card2{
+  position: absolute;
+  right: 0px;
+}
+div.persons{
+  margin: auto;
+  position: relative;
+  height: 211px;
+  width: 727px;
+  margin-top: 21px;
+}
+.name{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+}
+input[type=text] {
+  width: 89%;
+  padding: 10px 10px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+.nameLabel{
+  color: white;
+  font-family: Arial sans-serif normal;
+  margin-left: 10px;
+}
+.setButton {
+  background-color: #13213c;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 48px;
+  cursor: pointer;
+}
+#compute {
+  position: relative;
+  background-color: red;
+  display: block;
+  margin: auto;
+  border: none;
+  color: white;
+  font-family: 'Bungee';
+  font-size: 20px;
+  border-radius: 15px;
+  top: 100px;
+  cursor: pointer;
+  box-shadow: 1px 10px 11px black;
+}
+#compute:focus {
+  background-color: white;
+  color: #13213c;
+  outline: none;
+}
+#lovePars{
+  position: relative;
+  margin: auto;
+  left: 328px;
+  top: -112px;
+  font-family: 'Indie Flower';
+  font-size: 50px;
+  font-weight: bold;
+}
+#lovePars.animated::after{
+  content:"";
+  animation-name: calculating;
+  animation-duration: 3s;
+}

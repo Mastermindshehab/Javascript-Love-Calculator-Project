@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="love.css">
+</head>
+
+<body>
+    <h1 class="header"> javascript love calculator</h1>
+    <div class="heart center"></div>
+    <div class="persons">
+       <div class="person" id="card1">
+         <p class="name" id="person1">Your Name</p>
+         <form>
+           <label for="fname" class="nameLabel">Enter Here:</label>
+           <input type="text" required id="yourName" placeholder="Boyfriend Name"/>
+         </form>
+       </div>
+       <div class="person" id="card2">
+         <p class="name" id="person2">Any Name</p>
+         <form>
+           <label for="fname" class="nameLabel">Enter Here:</label>
+           <input type="text" required id="PartnerName" placeholder="Girlfriend Name">
+         </form>
+       </div>
+      <button  onClick="LoveCal()" id="compute">CALCULATE</button>
+      <p id="lovePars"  ></p>
+    </div>
+
+
+<script src="love.js"></script>
+</body>
+
+</html>
